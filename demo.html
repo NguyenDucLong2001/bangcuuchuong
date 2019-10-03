@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><3Long<3</title>
+</head>
+<body>
+<script>
+    let Tom ;
+    Tom = "<table border='1' width='1400' cellpadding='10' cellspacing='0' height='100'>"
+    for (i=1; i<=9; i++){
+        Tom = Tom +"<tr>";
+        for (j=2; j<=9; j++){
+            Tom = Tom + "<td>" + j + " x " + i + " = " + i*j + "</td>";
+        }
+        Tom = Tom +"<tr>";
+    }
+    Tom = Tom + "</table>";
+    document.write(Tom)
+</script>
+</body>
+</html>
